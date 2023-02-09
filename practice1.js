@@ -22,9 +22,12 @@ function myFun5(){
     document.getElementById("h2").innerHTML = "I am fine";
 }
 
+
 function myFun6(){
     document.getElementById("h3").innerHTML = "why";
 }
+
+
 
 function validateForm(){
     let x = document.myForm.name.value;
@@ -40,6 +43,8 @@ function validateForm(){
 
     }
 }
+
+
 
 function changeImage(filename){
     let img = document.getElementsByTagName("img")[0];
