@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+input[type=text] {
+    width: 39%;
+    border-width: 0 0 2px;
+    border-color: black;
+    padding-left: 5px;
+    
+}
+
+label {
+    padding-left: 5px;
+    padding-left: 5px;
+  }
+
+table,th, td {
+  border:1px solid black;
+}
+
+h1, h2, h3, p{
+    padding-left: 5px;
+}
+</style>
+
+
+<body>
+    <form >
+    <h2>Information</h2>
+    <h1>Health Care Insurance</h1>
+    <h3>Complete all answers in capital letters</h3>
+    <div style="border: 2px solid black;">
+        <h3>EMPLOYEE STATEMENT</h3><br>
+        <label for="cnumber">Group Contract Number</label>
+        <input type="text" name="cnumber" id="cnumber">
+        <label for="certificate">Certificate Number</label>
+        <input type="text" name="certificate" id="certificate">
+        <label style="white-space: pre-wrap;" for="lnamefname">Employee Last Name 
+ and Given Name</label>
+        <input type="text" name="lnamefname" id="lnamefname">
+        <label for="dob">Date of birth (DD/MM/YY)</label>
+        <input type="text" name="dob" id="dob">
+        <label for="address">Employee Address</label>
+        <input type="text" name="address" id="address"><br>
+        <strong style="padding-left: 5px;" >Would you like your claims and payments deposited into your bank account</strong><br>
+        <input type="checkbox" id="yes" name="yes" value="Yes">
+        <label for="yes"> Yes</label>
+        <strong style="padding-left: 5px;">: I have included a valid cheque </strong><br>
+        <p style="padding-left: 5px;">Please note only one time valid cheque is required. If you change your banking information a new void cheque will be needed</p><br>
+    </div>
+
+    <div style="border: 2px solid black; margin-top: 10px;">
+        <h3>CORDINATION OF BENEFITS</h3>
+        <p>1. Does you'r spouse and/or children have coverage under any other medical paln or Contract?</p>
+        <input type="checkbox" id="yes" name="yes" value="Yes">
+        <label for="yes"> Yes</label>
+        <input type="checkbox" id="no" name="no" value="no">
+        <label for="no"> No</label><br>
+        <label for="dob">If yes, spouse's date of birth? (DD/MM/YY)</label>
+        <input type="text" name="dob" id="dob">
+        <label for="Policyno&certino">Insurance company, policy number and certificate number</label>
+        <input type="text" name="Policyno&certino" id="Policyno&certino">
+        <p>Is any expense the result of an accident?</p>
+        <input type="checkbox" id="yes" name="yes" value="Yes">
+        <label for="yes"> Yes</label>
+        <input type="checkbox" id="no" name="no" value="no">
+        <label for="no"> No</label><br>
+        <label for="accidentdate">If yes, Date of accident</label>
+        <input type="text" name="accidentdate" id="accidentdate"><br>
+        <label for="location"> Location of accident</label>
+        <input type="checkbox" id="work" name="home" value="other">
+        <label for="work"> Work</label>
+        <input type="checkbox" id="work" name="home" value="other">
+        <label for="work"> Home</label>
+        <input type="checkbox" id="work" name="home" value="other">
+        <label for="work"> Other</label><br>
+        <label for="accidentoccur"> Explain the how the accident occured</label>
+        <input type="text" name="accidentoccur" id="accidentoccur">
+
+    </div>
+
+    <div>
+        <h3>DRUGS, VISION CARE, PARAMEDICAL SERVICES AND OTHERS-PATIENT INFORMATION</h3>
+        <table style="width:100%">
+            <tr>
+              <th>Patient's name</th>
+              <th>Date of birth</th>
+              <th>Relationship to plan member</th>
+              <th>Total charge</th>
+            </tr>
+            <tr>
+                <td>dd</td>
+            </tr>
+            <tr>
+                <td>dd</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>dd</td>
+            </tr>
+            <tr>
+            </tr>
+          </table>
+    </div>
+
+</form>
+</body>
+</html>
