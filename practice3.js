@@ -62,7 +62,7 @@ let arr1 = [1,6,8,4,7];
 let arr2 = [1,3,6,4,7];
 
 
-function myFun3(arr1, arr2){
+function myFun3(arr3, arr4){
 
     let arr4 = [];
     let arr3 = arr1.concat(arr2);
